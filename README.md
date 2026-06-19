@@ -61,16 +61,28 @@ If you are running on Linux it may be necessary to install some additional depen
 
 ## Using Docker
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+The recommended way to preview this website locally on Windows is with [Docker Desktop](https://www.docker.com/products/docker-desktop/). Make sure Docker Desktop is running, then open PowerShell in the repository directory.
 
-You can build and execute the container by running the following command in the repository:
+Build the image and start the local Jekyll server:
 
-```bash
-chmod -R 777 .
-docker compose up
+```powershell
+docker compose up --build
 ```
 
-You should now be able to access the website from `localhost:4000`.
+Open the website at [http://localhost:4000](http://localhost:4000).
+
+Most content changes are rebuilt automatically. After changing `_config.yml`, restart the server:
+
+```powershell
+docker compose down
+docker compose up --build
+```
+
+To stop the server:
+
+```powershell
+docker compose down
+```
 
 ### Using the DevContainer in VS Code
 

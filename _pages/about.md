@@ -28,17 +28,21 @@ I am always open to research and industry collaborations, particularly in **3D v
 * **Dy3DGS-SLAM: Monocular 3D Gaussian Splatting SLAM for Dynamic Environments.** Y. Zhou et al., *ICRA*, 2025.
 * **DDN-SLAM: Real-Time Dense Dynamic Neural Implicit SLAM.** M. Li, Y. Zhou et al., *IEEE Robotics and Automation Letters (RA-L)*, 2025.
 
-## Active Peer Review
+## Peer Reviewer for International Journals
 
-> **Top Journals in Robotics & Computer Vision:**
+**Robotics & Autonomous Systems**
 * **IEEE Robotics and Automation Letters (RA-L)**
-* **IEEE Transactions on Multimedia**
+* **Robotics and Autonomous Systems** (Elsevier)
+
+**Computer Vision & Multimedia**
 * **Computer Vision and Image Understanding (CVIU)**
+* **IEEE Transactions on Multimedia**
+
+**Artificial Intelligence & Machine Learning**
 * **Neural Networks**
 * **Neurocomputing**
-* **Robotics and Autonomous Systems**
 
-> **Other International Journals:**
-* International Measurement Confederation
-* Alexandria Engineering
-* Results in Engineering
+**Measurement & General Engineering**
+* **Measurement** (Journal of the International Measurement Confederation)
+* **Alexandria Engineering Journal**
+* **Results in Engineering** (Elsevier)
