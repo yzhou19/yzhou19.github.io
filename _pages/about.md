@@ -18,7 +18,7 @@ My current research focuses on **Vision-Language-Action (VLA) models**, with a p
 
 * **Reliable VLA control.** Diagnosing which delayed sensor input makes closed-loop VLA policies fail, and correcting it with a lightweight action-conditioned state predictor placed in front of a frozen VLA (paper under review).
 * **3D world representations for robots.** Open-vocabulary 3D semantic mapping and training-free fusion of vision-language models with 3D geometric evidence for spatial reasoning (papers under review).
-* **Real-robot manipulation.** An SO-101 arm with LeRobot: teleoperated data collection and policy deployment on hardware, used as a testbed for latency and failure-recovery experiments.
+* **Real-robot manipulation.** An SO-101 arm with LeRobot: an ACT policy trained from 49 teleoperated demonstrations reaches **70% (14/20)** pick-and-place success on hardware ([code, data and video](https://github.com/yzhou19/so101-act-pick-place)). The arm also serves as my testbed for latency and failure-recovery experiments.
 
 ## Entrepreneurship & Tech Transfer
 
